@@ -1,38 +1,50 @@
 {
-  "name": "@ebiz-kit/components",
-  "version": "0.0.4",
-  "private": false,
-  "description": "Ebiz Component Library",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ebizltd/ebiz-kit.git"
-  },
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "es2015": "dist/esm/index.mjs",
-  "es2017": "dist/esm/index.mjs",
-  "types": "dist/types/index.d.ts",
-  "collection": "dist/collection/collection-manifest.json",
-  "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/components/components.js",
-  "files": [
-    "dist/",
-    "loader/"
-  ],
-  "scripts": {
-    "build": "stencil build --docs",
-    "test": "echo \"No tests specified\" && exit 0",
-    "start": "stencil build --dev --watch --serve",
-    "generate": "stencil generate"
-  },
-  "devDependencies": {
-    "@stencil/angular-output-target": "^0.0.5",
-    "@stencil/core": "^1.17.3",
-    "@stencil/react-output-target": "^0.0.9",
-    "@stencil/vue-output-target": "^0.0.3",
-    "@types/puppeteer": "2.0.1",
-    "jest-cli": "26.0.1",
-    "puppeteer": "2.1.1"
-  }
+    "name": "@ebiz-kit/components",
+    "version": "0.0.0",
+    "private": false,
+    "description": "Ebiz Kit Components",
+    "license": "MIT",
+    "homepage": "https://github.com/ebizltd/ebiz-kit#readme",
+    "author": "Sarmad Chaudhary <sarmad@ebizltd.io>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ebizltd/ebiz-kit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ebizltd/ebiz-kit/issues"
+    },
+    "directories": {
+        "lib": "lib",
+        "test": "__tests__"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "es2015": "dist/esm/index.mjs",
+    "es2017": "dist/esm/index.mjs",
+    "types": "dist/types/index.d.ts",
+    "collection": "dist/collection/collection-manifest.json",
+    "collection:main": "dist/collection/index.js",
+    "unpkg": "dist/components/components.js",
+    "files": [
+        "dist/",
+        "loader/"
+    ],
+    "scripts": {
+        "build": "stencil build --docs",
+        "test": "echo \"No tests specified\" && exit 0",
+        "start": "stencil build --dev --watch --serve",
+        "generate": "stencil generate"
+    },
+    "devDependencies": {
+        "@stencil/angular-output-target": "^0.0.5",
+        "@stencil/core": "^1.17.3",
+        "@stencil/react-output-target": "^0.0.9",
+        "@stencil/vue-output-target": "^0.0.3",
+        "@types/puppeteer": "2.0.1",
+        "jest-cli": "26.0.1",
+        "puppeteer": "2.1.1"
+    }
 }
