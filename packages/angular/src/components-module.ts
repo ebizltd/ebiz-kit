@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { defineCustomElements } from 'component-library/loader';
+import { defineCustomElements } from '@ebiz-kit/components/loader';
 
 import { BooleanValueAccessor } from './directives/boolean-value-accessor';
 import { NumericValueAccessor } from './directives/number-value-accessor';
@@ -44,4 +44,4 @@ const DECLARATIONS = [
   imports: [],
   providers: [],
 })
-export class ComponentLibraryModule {}
+export class ComponentsModule {}

@@ -1,12 +1,12 @@
 {
   "name": "@ebiz-kit/components",
   "version": "0.0.4",
-  "private": true,
-  "description": "Stencil Component Library",
+  "private": false,
+  "description": "Ebiz Component Library",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-ds-output-targets.git"
+    "url": "https://github.com/ebizltd/ebiz-kit.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",

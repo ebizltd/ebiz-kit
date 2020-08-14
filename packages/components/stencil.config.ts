@@ -60,7 +60,7 @@ const vueComponentModels: ComponentModelConfig[] = [
 ];
 
 export const config: Config = {
-  namespace: 'component-library',
+  namespace: 'components',
   taskQueue: 'async',
   outputTargets: [
     angularOutputTarget({

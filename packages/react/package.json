@@ -1,5 +1,5 @@
 {
-  "name": "component-library-react",
+  "name": "@ebiz-kit/react",
   "sideEffects": false,
   "version": "0.0.4",
   "private": true,
@@ -36,7 +36,7 @@
     "typescript": "^3.3.4000"
   },
   "dependencies": {
-    "component-library": "^0.0.4"
+    "@ebiz-kit/components": "^0.0.4"
   },
   "peerDependencies": {
     "react": "^16.7.0",

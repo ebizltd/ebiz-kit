@@ -1,5 +1,5 @@
 {
-  "name": "component-library-angular",
+  "name": "@ebiz-kit/angular",
   "version": "0.0.4",
   "private": true,
   "description": "Angular specific wrapper for component-library",
@@ -29,7 +29,7 @@
     "dist/"
   ],
   "dependencies": {
-    "component-library": "^0.0.4",
+    "@ebiz-kit/components": "^0.0.4",
     "tslib": "^1.9.3"
   },
   "peerDependencies": {

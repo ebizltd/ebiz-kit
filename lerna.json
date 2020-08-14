@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "packages/components",
+    "packages/angular",
+    "packages/react",
+    "packages/vue"
+  ],
+  "version": "independent",
+  "command": {
+    "publish": {}
+  }
+}

@@ -3,6 +3,20 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-ds-output-targets.git"
+    "url": "https://github.com/ebizltd/ebiz-kit.git"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "changelog": "lerna-changelog",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "np": "^6.0.2",
+    "rimraf": "^2.6.3",
+    "rollup": "^2.23.1"
   }
 }
