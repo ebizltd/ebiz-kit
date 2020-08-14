@@ -1,8 +1,9 @@
 | Project               | Package                                                                                          | Version                                            | License                                                    |
 | --------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------------- |
-| React Output Target   | [`@stencil/react-output-target`](https://www.npmjs.com/package/@stencil/react-output-target)     | [![npm][npm-badge-react]][npm-badge-react-url]     | [![license][npm-license-react]][npm-license-react-url]     |
-| Angular Output Target | [`@stencil/angular-output-target`](https://www.npmjs.com/package/@stencil/angular-output-target) | [![npm][npm-badge-angular]][npm-badge-angular-url] | [![license][npm-license-angular]][npm-license-angular-url] |
-| Vue Output Target     | [`@stencil/vue-output-target`](https://www.npmjs.com/package/@stencil/vue-output-target)         | [![npm][npm-badge-vue]][npm-badge-vue-url]         | [![license][npm-license-vue]][npm-license-vue-url]         |
+| Components   | [`@ebiz-kit/components`](https://www.npmjs.com/package/@ebiz-kit/components)   | [![npm][npm-badge-react]][npm-badge-components-url]     | [![license][npm-license-components]][npm-license-components-url]    |
+| React        | [`@ebiz-kit/react`](https://www.npmjs.com/package/@ebiz-kit/react)             | [![npm][npm-badge-react]][npm-badge-react-url]          | [![license][npm-license-react]][npm-license-react-url]              |
+| Angular      | [`@ebiz-kit/angular`](https://www.npmjs.com/package/@ebiz-kit/angular)         | [![npm][npm-badge-angular]][npm-badge-angular-url]      | [![license][npm-license-angular]][npm-license-angular-url]          |
+| Vue          | [`@ebiz-kit/vue`](https://www.npmjs.com/package/@ebiz-kit/vue)                 | [![npm][npm-badge-vue]][npm-badge-vue-url]              | [![license][npm-license-vue]][npm-license-vue-url]                  |
 
 # Introduction
 
@@ -214,15 +215,20 @@ There is an example component library package available on Github so that you ca
 import { DemoComponent } from 'component-library-vue';
 ```
 
-[npm-badge-react]: https://img.shields.io/npm/v/@stencil/react-output-target.svg
-[npm-badge-react-url]: https://www.npmjs.com/package/@stencil/react-output-target
-[npm-badge-angular]: https://img.shields.io/npm/v/@stencil/angular-output-target.svg
-[npm-badge-angular-url]: https://www.npmjs.com/package/@stencil/angular-output-target
-[npm-badge-vue]: https://img.shields.io/npm/v/@stencil/vue-output-target.svg
-[npm-badge-vue-url]: https://www.npmjs.com/package/@stencil/vue-output-target
-[npm-license-react ]: https://img.shields.io/npm/l/@stencil/react-output-target.svg
-[npm-license-react-url]: https://github.com/ionic-team/stencil-ds-plugins/blob/master/packages/react-output-target/LICENSE.md
-[npm-license-angular ]: https://img.shields.io/npm/l/@stencil/angular-output-target.svg
-[npm-license-angular-url]: https://github.com/ionic-team/stencil-ds-plugins/blob/master/packages/angular-output-target/LICENSE.md
-[npm-license-vue ]: https://img.shields.io/npm/l/@stencil/vue-output-target.svg
-[npm-license-vue-url]: https://github.com/ionic-team/stencil-ds-plugins/blob/master/packages/vue-output-target/LICENSE.md
+[npm-badge-components]: https://img.shields.io/npm/v/@ebiz-kit/components.svg
+[npm-badge-components-url]: https://www.npmjs.com/package/@ebiz-kit/components
+[npm-badge-react]: https://img.shields.io/npm/v/@ebiz-kit/react.svg
+[npm-badge-react-url]: https://www.npmjs.com/package/@ebiz-kit/react
+[npm-badge-angular]: https://img.shields.io/npm/v/@ebiz-kit/angular.svg
+[npm-badge-angular-url]: https://www.npmjs.com/package/@ebiz-kit/angular
+[npm-badge-vue]: https://img.shields.io/npm/v/@ebiz-kit/vue.svg
+[npm-badge-vue-url]: https://www.npmjs.com/package/@ebiz-kit/vue
+
+[npm-license-components ]: https://img.shields.io/npm/l/@ebiz-kit/components.svg
+[npm-license-components-url]: https://github.com/ebizltd/ebiz-kit/tree/master/packages/components/LICENSE.md
+[npm-license-react ]: https://img.shields.io/npm/l/@ebiz-kit/react.svg
+[npm-license-react-url]: https://github.com/ebizltd/ebiz-kit/tree/master/packages/react/LICENSE.md
+[npm-license-angular ]: https://img.shields.io/npm/l/@ebiz-kit/angular.svg
+[npm-license-angular-url]: https://github.com/ebizltd/ebiz-kit/tree/master/packages/angular/LICENSE.md
+[npm-license-vue ]: https://img.shields.io/npm/l/@ebiz-kit/vue.svg
+[npm-license-vue-url]: https://github.com/ebizltd/ebiz-kit/tree/master/packages/vue/LICENSE.md

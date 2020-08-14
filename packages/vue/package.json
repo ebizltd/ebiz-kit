@@ -4,6 +4,7 @@
     "version": "0.0.0",
     "private": false,
     "description": "Vue specific wrapper for ebiz-kit",
+    "license": "MIT",
     "homepage": "https://github.com/ebizltd/ebiz-kit#readme",
     "author": "Sarmad Chaudhary <sarmad@ebizltd.io>",
     "repository": {
